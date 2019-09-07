@@ -1,0 +1,9 @@
+.card-body-custom{
+    height: 5em;
+}
+
+@media only screen and (max-width: 991px) {
+    .card-body-custom{
+        height: 6em;
+    }
+}

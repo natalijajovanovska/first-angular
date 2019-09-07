@@ -1,0 +1,10 @@
+<div class="container" >
+    <div class="row" >
+        <div class="col-sm-12" *ngIf="content">
+            <div class="card mb-5" *ngFor="let cont of content">
+                <div class="card-header text-capitalize">{{ cont.title }}</div>
+                <div class="card-body text-capitalize">{{ cont.body }}</div>
+              </div>
+        </div>
+    </div>
+</div>

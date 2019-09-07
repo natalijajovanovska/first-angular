@@ -1,0 +1,12 @@
+.custom-height{
+    height: 27rem;
+    overflow: hidden;
+}
+.text-align-custom{
+    text-align: justify;
+}
+@media only screen and (max-width: 767px) {
+    .custom-height{
+        height: 100%;
+    }
+}

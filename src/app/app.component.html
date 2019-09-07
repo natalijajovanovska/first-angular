@@ -1,0 +1,28 @@
+<div class="container-fluid bg-dark">
+  <div class="row font-custom">
+    <div class="col-sm-4 text-center ">
+      <a href="#" routerLink="/">Home</a>
+    </div>
+    <div class="col-sm-4 text-center">
+      <a href="#" routerLink="/posts" routerLinkActive="active">Posts</a>
+    </div>
+    <div class="col-sm-4 text-center">
+      <a href="#" routerLink="/gallery" routerLinkActive="active">Gallery</a>
+    </div>
+  </div>
+</div>
+
+<div class="container my-5">
+  <div class="row">
+    <div class="col-sm-12 d-flex justify-content-end flex-custom align-items-center flex-custom">
+        <p class="font-weight-bold my-auto display-none-custom">Choose Bg color</p>
+        <button (click)="addClass()" class="btn btn-custom btn-dark"></button>
+        <button (click)="addClass2()" class="btn btn-custom btn-dark"></button>
+        <button (click)="removeClass()" class="btn btn-custom btn-dark"></button>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
